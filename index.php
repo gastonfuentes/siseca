@@ -22,13 +22,20 @@
 
 			<div class="container pb-5 pt-5" style="background-image: url(imagenes/bghome.jpg); background-size: cover;">
 
-				<h1 class="text-white text-center mt-2 mb-4">BIENVENIDO AL SISTEMA DE CONSULTAS SECICA</h1>	<h4 class="text-white text-center mt-5 mb-4">INGRESE A SU AREA CORRESPONDIENTE</h4>
+				<h1 class="text-white text-center mt-2 mb-4">BIENVENIDO AL SISTEMA DE CONSULTAS SECICA</h1>	<h4 class="text-white text-center mt-5 mb-4">INGRESE A SU USUARIO Y DNI</h4>
 
-				<form class="col-10 mx-auto text-center" action="sesionArea.php" method="get">
-					<a href="seccionCiviles.php" class="btn-block btn-lg btn-warning" role="button" aria-pressed="true">CIVILES DE CARRERA</a>	
-					<a href="seccionSalario.php" class="btn-block btn-lg btn-warning" role="button" aria-pressed="true">SALARIO</a>
-					<a href="seccionLiquidacion.php" class="btn-block btn-lg btn-warning" role="button" aria-pressed="true">LIQUIDACION</a>					
-				</form>				
+				<!-- FORMULARIO PARA INGRESAR -->
+				<form class="col-10 col-md-4 mx-auto text-center needs-validation" action="sesion.php" method="post" >
+					<div class="form-group">										
+						<input type="text" class="form-control" placeholder="Ingrese su usuario" name="usuario" required>					
+					</div>
+
+					<div class="form-group">				
+						<input type="password" class="form-control" placeholder="Ingrese su Contraseña" name="pass" required>
+					</div>
+
+					<button type="submit" class="btn btn-light mb-5"><small>INGRESAR</small></button>
+				</form>		
 
 			</div>	
 

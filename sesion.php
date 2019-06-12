@@ -1,7 +1,7 @@
 <?php 
 
 //llamamos al archivo que posee la clase para conectarnos a la base de datos
-require 'clases/conexionCapit.php';
+require 'clases/conexion.php';
 //llamamos al archivo usuarios.php el cual posee la clase Usuarios
 require 'clases/usuarios.php';
 //llamamos al archivo sesiones que posee la clase Sesion

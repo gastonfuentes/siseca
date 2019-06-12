@@ -42,7 +42,7 @@ class Usuarios{
 					$this->objSe->set_sesion('nombre',$resultado[0]["usuario"]);
 					//$this->objSe->set_sesion('apell',$resultado[0]["apellido"]);
 					//$this->objSe->set_sesion('docu',$resultado[0]["documento"]);					
-					header('location: consultaSalario.php');
+					header('location: seccion-salario/consultaSalario.php');
 					break;
 				
 				case 'liqui':
@@ -51,7 +51,7 @@ class Usuarios{
 					//$this->objSe->set_sesion('apell',$resultado[0]["apellido"]);
 					//$this->objSe->set_sesion('docu',$resultado[0]["documento"]);
 					//header('location: veremp.php');
-					header('location: consultaLiquidacion.php');
+					header('location: seccion-liquidacion/consultaLiquidacion.php');
 					break;
 			}
 

@@ -8,16 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script defer src="js/all.js"></script> 
 	<style>  
-		.icono{
-			color: #58595D;
-			font-size: 2rem;
-			margin-right: 1rem;   
-		}
-		.iconopeque{
-			color: #58595D;
-			font-size: 1rem;
-			margin-right: 0.5rem;
-		}
+		
 	</style>
 </head>
 <body>
